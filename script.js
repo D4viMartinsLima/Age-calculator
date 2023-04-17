@@ -14,7 +14,7 @@ function calcAge(){
         alert('Please enter your birthday')
     }else{
         const age = getAge(birthdayValue)
-        resultEL.textContent = `Your age is ${age}`
+        resultEL.textContent = `Your are is ${age} ${age > 1 ? 'years old' : 'year old'}`
         resultEL.style.display = 'block';
 
 
